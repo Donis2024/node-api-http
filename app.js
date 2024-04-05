@@ -13,7 +13,7 @@ const server = http.createServer(async (req, res) => {
         // set the status code, and content-type
         res.writeHead(200, { "Content-Type": "application/json" });
         // send the data
-        res.end("Welcome, this is your Home page\n");
+        res.end("Welcome, this is your Home Test page\n");
     }
 
     //Health check and uptime endpoint
